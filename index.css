@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'resistanceregular';
+    src: url('assets/resistance_generale-webfont.eot');
+    src: url('assets/resistance_generale-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/resistance_generale-webfont.woff2') format('woff2'),
+         url('assets/resistance_generale-webfont.woff') format('woff'),
+         url('assets/resistance_generale-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  background-color: #00EDFF;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-family: 'resistanceregular';
+  font-size: 620%;
+  z-index: -1;
+  position: absolute;
+  top: -7%;
+  padding: 0 2%;
+}
