@@ -21,6 +21,15 @@ h1 {
   font-size: 620%;
   z-index: -1;
   position: absolute;
-  top: -7%;
+  top: -5%;
   padding: 0 2%;
+  color: black;
+}
+
+h2 {
+  bottom: 10%;
+  padding: 0 2%;
+  position: absolute;
+  font-family: 'resistanceregular';
+  font-size: 620%;
 }

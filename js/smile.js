@@ -169,10 +169,10 @@
 
       requestAnimationFrame(animation);
 
-
       window.addEventListener("resize", () => {
         canvas.update(window.innerWidth, window.innerHeight);
         navigator.update(window.innerWidth / 2, window.innerHeight / 2);
       }, false);
+
 
       document.body.appendChild(canvas.renderer.domElement);
